@@ -1,0 +1,6 @@
+name: chrome-shell
+version: 0.1.0
+license: Unlicense
+targets:
+  chrome-shell:
+    main: src/chrome-shell.cr

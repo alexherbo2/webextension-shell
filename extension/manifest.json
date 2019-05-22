@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Shell",
+  "description": "Chrome API to execute external commands through native messaging",
+  "version": "0.1.0",
+  "permissions": [
+    "nativeMessaging"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "icons": {
+    "16": "build/chrome.png",
+    "48": "build/chrome.png",
+    "128": "build/chrome.png"
+  }
+}

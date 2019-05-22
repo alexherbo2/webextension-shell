@@ -1,0 +1,9 @@
+{
+  "name": "shell",
+  "description": "Native messaging host to execute external commands",
+  "path": null,
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://<extension-id>/"
+  ]
+}
