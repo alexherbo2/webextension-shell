@@ -4,6 +4,6 @@
   "path": null,
   "type": "stdio",
   "allowed_origins": [
-    "chrome-extension://<extension-id>/"
+    "chrome-extension://ohgecdnlcckpfnhjepfdcdgcfgebkdgl/"
   ]
 }

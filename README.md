@@ -10,7 +10,13 @@
 
 ## Installation
 
-### Extension
+### Installing from the Chrome Web Store
+
+https://chrome.google.com/webstore/detail/shell/ohgecdnlcckpfnhjepfdcdgcfgebkdgl
+
+### Installing from the source
+
+#### Extension
 
 ``` sh
 cd extension
@@ -23,7 +29,7 @@ Open the _Extensions_ page by navigating to `chrome://extensions`, enable _Devel
 
 See the [Getting Started Tutorial] for more information.
 
-### Host
+#### Host
 
 Build the [application](host) and install the [native manifest][Native messaging host] to its [appropriate location][Native messaging host location]:
 
@@ -37,7 +43,7 @@ make install
 More examples can be found [here][Create a keyboard interface to the web].
 
 ``` javascript
-const port = chrome.runtime.connect('<extension-id>')
+const port = chrome.runtime.connect('ohgecdnlcckpfnhjepfdcdgcfgebkdgl')
 port.postMessage({ command: 'echo', arguments: ['Tchou'] })
 port.onMessage.addListener((response) => {
   console.log(response.output)
