@@ -6,7 +6,7 @@
 
 - [Crystal]
 - [jq]
-- [Inkscape] (Inkscape is used to convert SVG to PNG)
+- [Inkscape] (Inkscape is used to convert SVG to PNG when uploading to the [Chrome Web Store])
 
 ## Installation
 
@@ -80,6 +80,7 @@ See [Cross-extension messaging] for more details.
 ```
 
 [Chrome]: https://google.com/chrome/
+[Chrome Web Store]: https://chrome.google.com/webstore
 [Create a keyboard interface to the web]: https://alexherbo2.github.io/blog/chrome/create-a-keyboard-interface-to-the-web/
 [Getting Started Tutorial]: https://developer.chrome.com/extensions/getstarted
 [Cross-extension messaging]: https://developer.chrome.com/extensions/messaging#external

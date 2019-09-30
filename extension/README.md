@@ -2,7 +2,7 @@
 
 ## Dependencies
 
-- [Inkscape] (Inkscape is used to convert SVG to PNG)
+- [Inkscape] (Inkscape is used to convert SVG to PNG when uploading to the [Chrome Web Store])
 
 ## Installation
 
@@ -16,5 +16,6 @@ Open the _Extensions_ page by navigating to `chrome://extensions`, enable _Devel
 
 See the [Getting Started Tutorial] for more information.
 
+[Chrome Web Store]: https://chrome.google.com/webstore
 [Getting Started Tutorial]: https://developer.chrome.com/extensions/getstarted
 [Inkscape]: https://inkscape.org

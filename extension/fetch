@@ -11,3 +11,4 @@ mkdir -p packages
 cd packages
 
 fetch https://upload.wikimedia.org/wikipedia/commons/5/5f/Chromium_11_Logo.svg chrome.svg
+fetch https://i.imgur.com/RtrWioy.png chrome.png
