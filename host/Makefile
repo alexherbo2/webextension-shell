@@ -1,11 +1,22 @@
+all: chrome chromium firefox
+
+chrome: build
+	./scripts/install-manifest chrome
+
+chromium: build
+	./scripts/install-manifest chromium
+
+firefox: build
+	./scripts/install-manifest firefox
+
 build:
 	shards build --release
 
 install: build
-	./scripts/install-manifest chrome chromium
+	./scripts/install-manifest chrome chromium firefox
 
 uninstall:
-	./scripts/uninstall-manifest chrome chromium
+	./scripts/uninstall-manifest chrome chromium firefox
 
 clean:
 	rm -Rf bin

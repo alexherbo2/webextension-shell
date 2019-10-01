@@ -1,5 +1,7 @@
 XDG_CONFIG_HOME=${XDG_CONFIG_HOME:-~/.config}
 
+PLATFORM='chrome'
+
 # https://developer.chrome.com/extensions/nativeMessaging#native-messaging-host-location
 case $(uname -s) in
   Darwin)
