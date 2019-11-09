@@ -12,6 +12,9 @@ firefox: build
 build:
 	shards build --release
 
+build-static:
+	./scripts/build-static
+
 install: build
 	./scripts/install-manifest chrome chromium firefox
 
