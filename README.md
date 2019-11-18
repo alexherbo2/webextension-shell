@@ -75,7 +75,7 @@ make firefox
 
 ## Usage
 
-More examples can be found [here][Create a keyboard interface to the web].
+More examples can be found at [Krabby].
 
 ``` javascript
 const port = chrome.runtime.connect('ohgecdnlcckpfnhjepfdcdgcfgebkdgl') // for a Chrome extension
@@ -140,4 +140,5 @@ See [Cross-extension messaging] for more details.
 [Firefox – Native manifests]: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_manifests
 [Firefox – Native manifest location]: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_manifests#Manifest_location
 
+[Krabby]: https://krabby.netlify.com
 [Create a keyboard interface to the web]: https://alexherbo2.github.io/blog/chrome/create-a-keyboard-interface-to-the-web/
