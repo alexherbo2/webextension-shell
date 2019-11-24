@@ -5,6 +5,7 @@
 ## Dependencies
 
 - [Crystal]
+- [Docker] (for static builds)
 - [jq]
 
 ## Installation
@@ -27,6 +28,7 @@ make firefox
 ```
 
 [Crystal]: https://crystal-lang.org
+[Docker]: https://docker.com
 [jq]: https://stedolan.github.io/jq/
 [Native messaging host]: https://developer.chrome.com/extensions/nativeMessaging#native-messaging-host
 [Native messaging host location]: https://developer.chrome.com/extensions/nativeMessaging#native-messaging-host-location

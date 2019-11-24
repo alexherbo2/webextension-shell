@@ -7,6 +7,7 @@
 ## Dependencies
 
 - [Crystal]
+- [Docker] (for static builds)
 - [jq]
 - [Zip] (Zip is used to package the extension)
 - [Inkscape] (Inkscape is used to convert SVG to PNG when uploading the extension)
@@ -126,6 +127,7 @@ See [Cross-extension messaging] for more details.
 [Firefox Add-ons]: https://addons.mozilla.org
 
 [Crystal]: https://crystal-lang.org
+[Docker]: https://docker.com
 [jq]: https://stedolan.github.io/jq/
 [Zip]: http://infozip.sourceforge.net/Zip.html
 [Inkscape]: https://inkscape.org
