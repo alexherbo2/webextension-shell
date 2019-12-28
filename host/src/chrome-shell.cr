@@ -1,7 +1,7 @@
 require "json"
 
 class Request
-  JSON.mapping({
+  JSON.mapping(
     id: String?,
     command: String,
     arguments: Array(String)?,
@@ -9,7 +9,7 @@ class Request
     shell: { type: Bool, default: false },
     input: String?,
     directory: String?
-  })
+  )
 end
 
 def main
