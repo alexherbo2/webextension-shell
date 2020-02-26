@@ -1,5 +1,6 @@
 PLATFORM='firefox'
 
+# Manifest location
 # https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_manifests#Manifest_location
 case $(uname -s) in
   Darwin)

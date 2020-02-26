@@ -8,7 +8,7 @@
   ],
   "background": {
     "scripts": [
-      "background.js"
+      "src/background.js"
     ],
     "persistent": false
   },
