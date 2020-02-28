@@ -50,6 +50,29 @@ shell.send = (command, ...arguments) => {
 shell.send('mpv', 'https://youtu.be/7ky_itVPTnk')
 ```
 
+###### Ping-pong
+
+``` javascript
+const ping = () => {
+  shell.port.postMessage({
+    id: 'ping-pong',
+    command: 'echo',
+    arguments: ['Ping']
+  })
+}
+
+shell.port.onMessage.addListener((response) => {
+  switch (response.id) {
+    case 'ping-pong':
+      console.log(response.output, 'Pong')
+      break
+  }
+})
+
+// Ping-pong
+ping()
+```
+
 You can find some examples in [Krabby].
 
 [Krabby]: https://krabby.netlify.com
