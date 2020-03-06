@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Shell",
-  "description": "Chrome API to execute external commands through native messaging",
+  "description": "WebExtension API to execute external commands through native messaging",
   "version": "0.1.0",
   "permissions": [
     "nativeMessaging"

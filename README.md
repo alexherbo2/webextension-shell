@@ -3,8 +3,9 @@
 [Chrome]: https://google.com/chrome/
 [Firefox]: https://mozilla.org/firefox/
 
-Chrome API to execute external commands through [native messaging].
+[WebExtension] API to execute external commands through [native messaging].
 
+[WebExtension]: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions
 [Native messaging]: https://developer.chrome.com/extensions/nativeMessaging
 
 ## Dependencies
