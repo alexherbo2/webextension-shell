@@ -14,6 +14,7 @@ end
 
 def main
   loop do
+    # Read the request on stdin
     request = read
     stdin = IO::Memory.new
     stdout = IO::Memory.new
@@ -39,6 +40,7 @@ def main
         output: stdout.to_s,
         error: stderr.to_s
       }
+      # Send the response on stdout
       send(response)
     end
   end
