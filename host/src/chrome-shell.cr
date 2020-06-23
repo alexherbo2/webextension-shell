@@ -23,7 +23,7 @@ def main
       stdin << request.input
       stdin.rewind
     end
-    fork do
+    Process.fork do
       status = Process.run(
         command: request.command,
         args: request.arguments,
