@@ -30,7 +30,7 @@ install: $(build)
 	./scripts/install-manifest chrome chromium firefox
 
 uninstall:
-	./scripts/uninstall-manifest chrome chromium firefox
+	./scripts/uninstall-manifest brave chrome chromium firefox
 
 clean:
 	rm -Rf bin
