@@ -20,6 +20,12 @@ Build the application and install the native manifest to its appropriate locatio
 make chrome chromium
 ```
 
+###### Brave
+
+``` sh
+make brave
+```
+
 ###### Firefox
 
 ``` sh
