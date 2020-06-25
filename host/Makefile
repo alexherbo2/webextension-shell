@@ -8,7 +8,7 @@ endif
 
 all = chrome chromium brave firefox
 
-all: $(all)
+all: install
 
 chrome: $(build)
 	./scripts/install-manifest chrome
