@@ -6,7 +6,9 @@ else
   build = build
 endif
 
-all: chrome chromium brave firefox
+all = chrome chromium brave firefox
+
+all: $(all)
 
 chrome: $(build)
 	./scripts/install-manifest chrome
@@ -27,10 +29,10 @@ build-static:
 	./scripts/build-static
 
 install: $(build)
-	./scripts/install-manifest chrome chromium brave firefox
+	./scripts/install-manifest $(all)
 
 uninstall:
-	./scripts/uninstall-manifest chrome chromium brave firefox
+	./scripts/uninstall-manifest $(all)
 
 clean:
 	rm -Rf bin
