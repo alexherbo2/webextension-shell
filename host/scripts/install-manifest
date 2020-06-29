@@ -4,7 +4,7 @@
 none='\033[0m'
 green='\033[32m'
 
-export application=$PWD/bin/chrome-shell
+export application=$PWD/bin/webextension-shell
 for platform do
   . "./scripts/$platform-target.sh"
   mkdir -p "$TARGET"

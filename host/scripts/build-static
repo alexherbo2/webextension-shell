@@ -1,4 +1,4 @@
 #!/bin/sh
 
-docker build --tag chrome-shell .
-docker run --mount "type=bind,source=$PWD,destination=/app" chrome-shell
+docker build --tag webextension-shell .
+docker run --mount "type=bind,source=$PWD,destination=/app" webextension-shell

@@ -1,11 +1,11 @@
-# Shell for [Chrome] and [Firefox]
+# Shell for [Chrome] and [Firefox] – [WebExtensions]
 
 [Chrome]: https://google.com/chrome/
 [Firefox]: https://mozilla.org/firefox/
+[WebExtensions]: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions
 
-[WebExtension] API to execute external commands through [native messaging].
+[WebExtension][WebExtensions] API to execute external commands through [native messaging].
 
-[WebExtension]: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions
 [Native messaging]: https://developer.chrome.com/extensions/nativeMessaging
 
 ## Dependencies
