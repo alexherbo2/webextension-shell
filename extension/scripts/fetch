@@ -21,5 +21,5 @@ mkdir -p packages
 cd packages
 
 # Fetch packages
-fetch https://upload.wikimedia.org/wikipedia/commons/5/5f/Chromium_11_Logo.svg chromium.svg
-fetch https://i.imgur.com/RtrWioy.png chromium.png
+fetch https://github.com/FortAwesome/Font-Awesome/raw/master/svgs/solid/terminal.svg
+fetch https://i.imgur.com/m9RrePo.png terminal.png

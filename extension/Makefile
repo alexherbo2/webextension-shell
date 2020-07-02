@@ -8,7 +8,7 @@ firefox: fetch
 
 icons: fetch
 	mkdir -p build
-	inkscape --without-gui packages/chromium.svg --export-png build/chromium.png --export-width 128 --export-height 128
+	inkscape --without-gui packages/terminal.svg --export-png build/terminal.png --export-width 128 --export-height 128
 
 fetch:
 	scripts/fetch
