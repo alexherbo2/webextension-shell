@@ -4,6 +4,8 @@
 [Firefox]: https://mozilla.org/firefox/
 [WebExtensions]: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions
 
+<img src="https://github.com/FortAwesome/Font-Awesome/raw/master/svgs/solid/terminal.svg" height="16" align="right">
+
 [WebExtension][WebExtensions] API to execute external commands through [native messaging].
 
 [Native messaging]: https://developer.chrome.com/extensions/nativeMessaging
