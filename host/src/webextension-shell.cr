@@ -1,15 +1,15 @@
 require "json"
 
 class Request
-  JSON.mapping(
-    id: String?,
-    command: String,
-    arguments: Array(String)?,
-    environment: Hash(String, String)?,
-    shell: { type: Bool, default: false },
-    input: String?,
-    directory: String?
-  )
+  include JSON::Serializable
+
+  property id : String?
+  property command : String
+  property arguments : Array(String)?
+  property environment : Hash(String, String)?
+  property shell : Bool = false
+  property input : String?
+  property directory : String?
 end
 
 def main
