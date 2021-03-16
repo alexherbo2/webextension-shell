@@ -6,7 +6,7 @@ green='\033[32m'
 
 export application=$PWD/bin/webextension-shell
 for platform do
-  . "./scripts/$platform-target.sh"
+  . "scripts/$platform-target.sh"
   mkdir -p "$TARGET"
   printf "${green}Installing${none}: %s\n" "$TARGET/shell.json"
   jq 'add | .path = env.application' --slurp manifest/common.json "manifest/$PLATFORM.json" > "$TARGET/shell.json"

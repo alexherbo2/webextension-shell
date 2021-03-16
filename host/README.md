@@ -3,14 +3,20 @@
 ## Dependencies
 
 - [Crystal]
-- [Docker] (for static builds)
 - [jq]
 
 [Crystal]: https://crystal-lang.org
-[Docker]: https://docker.com
 [jq]: https://stedolan.github.io/jq/
 
 ## Installation
+
+### Nightly builds
+
+Download the [Nightly builds].
+
+[Nightly builds]: https://github.com/alexherbo2/webextension-shell/releases/nightly
+
+### Build from source
 
 Build the application and install the native manifest to its appropriate location.
 

@@ -13,12 +13,10 @@
 ## Dependencies
 
 - [Crystal]
-- [Docker] (for static builds)
 - [jq]
 - [Zip]
 
 [Crystal]: https://crystal-lang.org
-[Docker]: https://docker.com
 [jq]: https://stedolan.github.io/jq/
 [Zip]: http://infozip.sourceforge.net/Zip.html
 

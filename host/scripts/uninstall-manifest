@@ -5,7 +5,7 @@ none='\033[0m'
 green='\033[32m'
 
 for platform do
-  . "./scripts/$platform-target.sh"
+  . "scripts/$platform-target.sh"
   printf "${green}Removing${none}: %s\n" "$TARGET/shell.json"
   rm -f "$TARGET/shell.json"
 done
