@@ -14,11 +14,9 @@
 
 - [Crystal]
 - [jq]
-- [Zip]
 
 [Crystal]: https://crystal-lang.org
 [jq]: https://stedolan.github.io/jq/
-[Zip]: http://infozip.sourceforge.net/Zip.html
 
 ## Installation
 
