@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Shell",
   "description": "WebExtension API to execute external commands through native messaging",
   "version": "0.1.0",
@@ -7,10 +7,7 @@
     "nativeMessaging"
   ],
   "background": {
-    "scripts": [
-      "src/background.js"
-    ],
-    "persistent": false
+    "service_worker": "background.js"
   },
   "icons": {
     "16": "packages/terminal.png",
